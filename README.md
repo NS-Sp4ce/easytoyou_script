@@ -19,6 +19,7 @@ easytoyou批量解密脚本
 - reqHeader：header头
 - timeZone：你所在的时区与欧洲相差的时间（例如：北京时间8点，那么欧洲时间为1点，相差7小时，故-7）
 - reqTimeout：请求超时时间
+配置好后执行`python3 ez2u.py`即可
 
 # 需求
 - python3
