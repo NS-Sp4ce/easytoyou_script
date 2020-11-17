@@ -23,4 +23,4 @@ easytoyou批量解密脚本
 
 # 需求
 - python3
-- bs4库、requests库
+- bs4库、requests库、lxml库
