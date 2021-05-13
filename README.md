@@ -1,5 +1,6 @@
 # easytoyou_script
 easytoyou批量解密脚本
+【需要一个easy2you的会员帐号】
 # 配置
 ```
     class options:
@@ -7,7 +8,7 @@ easytoyou批量解密脚本
         dstFolder = '' # save path
         ez2uURL = 'https://easytoyou.eu/decoder/ic10php56/'
         reqHeader = {}
-        reqHeader['Cookie'] = ''
+        reqHeader['Cookie'] = '' #登录状态的会员账号的cookie
         reqHeader['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
         errorLogPath = dstFolder + 'error.log' # errorlog path
         timeZone=-7 #CN to EU 
