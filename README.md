@@ -1,8 +1,11 @@
 # easytoyou_script
 easytoyou批量解密脚本
 【需要一个easy2you的会员帐号】
-# 配置
+# 配置 (options)
+
+
 ```
+ez2u.py
     class options:
         sourceFolder = "" # need decode path
         dstFolder = '' # save path
@@ -24,4 +27,11 @@ easytoyou批量解密脚本
 
 # 需求
 - python3
-- bs4库、requests库、lxml库
+- bs4、requests、lxml
+
+# Use
+1. sign up a ez2u account
+2. login ez2u and copy `Response Cookie`
+3. paste cookie into ez2u.py `reqHeader['Cookie']`
+4. set `timeZone` `dstFolder` `sourceFolder`to right value
+5. run `python3 ez2u.py`
