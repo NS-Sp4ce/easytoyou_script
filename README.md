@@ -1,4 +1,4 @@
-# easytoyou_script 【ONLY FOR **WINDOWS**】
+# easytoyou_script 【ONLY FOR WINDOWS】
 easytoyou批量解密脚本
 【需要一个easy2you的会员帐号】
 # 配置 (options)
